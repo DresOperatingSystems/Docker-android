@@ -1,36 +1,34 @@
 Hello this is my way of building a docker like env on mobile to succesfully deploy python bots and/or applications FOR ADAVANCED DEVS ONLY
 
-This is for both rooted and rootless devices
+This is for roofless Devices
 
-First you need to get root access in a termux
+set up termux env you can check my kali nethunter repository on how to do so 
+
+then need to get root access in a termux
 
 The easiest way is like this(copy and paste 1by1):
 
 pkg install git -y
 
-git clone https://<i></i>github.com/hctilg/root-termux.git && cd root-termux && chmod +x *
+pkg install wget openssl-tool proot -y && hash -r && wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Installer/Kali/kali.sh && bash kali.sh
 
-pkg install wget proot -y
+enter the root access with ./start-kali.sh
 
-yes | bash install.sh
-
-bash start.sh
+then update it 
 
 apt update
 
 apt upgrade
 
-apt install sudo
+apt install python
 
-With thanks to https://github.com/hctilg for that part 
+apt install python3-doc && apt install python3-venv     python3.13-doc && apt install binfmt-support && apt install python3-tk && apt install python3.13-venv && apt install binutils
 
-fyi this way also works with my nethunter installer as that also gives you root access
+apt install cpp-doc flex bzr gcc-14-locales bison gdbm-l10n ed cpp-14-doc gdb diffutils-doc debian-keyring gcc-doc ncurses-doc perl-doc gcc-14-doc readline-doc libterm-readline-gnu-perl libc-devtools sqlite3-doc libterm-readline-perl-perl autoconf glibc-doc libssl-doc libtap-harness-archive-perl automake sensible-utils libstdc++-14-doc libtool git make-doc -y
 
-Now onto my steps(copy and paste 1by1):
+apt install wget libncurses5-dev build-essential zlib1g-dev libgdbm-dev libnss3-dev libssl-dev libreadline-dev libffi-dev libsqlite3-dev libbz2-dev pkg-config -y
 
-sudo apt install wget libncurses5-dev build-essential zlib1g-dev libgdbm-dev libnss3-dev libssl-dev libreadline-dev libffi-dev libsqlite3-dev libbz2-dev pkg-config -y
-
-sudo apt update && sudo apt full-upgrade -y
+apt update && apt full-upgrade -y
 
 Once that is complete you must also compile python.
 
@@ -78,9 +76,9 @@ disown
 
 pm2
 
-After your bot is deployed please click require wakelock on the termux notification 
+After your bot is deployed please click require wakelock on the termux notification and click exit renter termux and once again require wakelock but exit termux via cmd line hy inputting exit do not close termux notification
 
-Now your bot is in its own docker like env running forever until you turn it off nohup & is the best one in my opinion
+Now your bot is in its own docker like env running forever until you turn it off nohup & is the best one in my opinion as this gives you an output you can read and restarts itself if your bot crashes in the background
 
 
 thank you and enjoy
