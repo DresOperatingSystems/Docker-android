@@ -1,6 +1,6 @@
 Hello this is my way of building a docker like env on mobile to succesfully deploy python bots and/or applications FOR ADAVANCED DEVS ONLY
 
-This is for roofless Devices
+This is for rootless Devices
 
 set up termux env you can check my kali nethunter repository on how to do so 
 
