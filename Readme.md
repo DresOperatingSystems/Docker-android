@@ -12,7 +12,7 @@ pkg install git -y
 
 pkg install wget openssl-tool proot -y && hash -r && wget https://<i></i>raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Installer/Kali/kali.sh && bash kali.sh
 
-enter the root access with ./start-kali.sh
+enter root access with ./start-kali.sh
 
 then update it 
 
@@ -46,7 +46,7 @@ leave it to do its thing now lets build python
 
 make -j $(nproc)
 
-sudo make altinstall
+make altinstall
 
 Once complete check your python version with
 
