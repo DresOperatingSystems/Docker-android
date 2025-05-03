@@ -20,7 +20,7 @@ apt update
 
 apt upgrade
 
-apt install python
+apt install python3
 
 apt install python3-doc && apt install python3-venv     python3.13-doc && apt install binfmt-support && apt install python3-tk && apt install python3.13-venv && apt install binutils
 
