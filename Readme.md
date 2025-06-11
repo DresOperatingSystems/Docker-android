@@ -83,7 +83,7 @@ Now your bot is in its own docker like env running forever until you turn it off
 
 thank you and enjoy
 
--ZłO
+-DresOS
 
 ![1000485377](https://github.com/user-attachments/assets/487db380-9c2a-4d31-92bf-2b2c91dab1ab)
 ![1000485551](https://github.com/user-attachments/assets/183adcbd-8696-446e-b6cd-7ae95fa59db1)
