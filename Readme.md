@@ -85,6 +85,9 @@ thank you and enjoy
 
 -DresOS
 
+please support these projects and buy us a coffee 
+https://coff.ee/dresos
+
 ![1000485377](https://github.com/user-attachments/assets/487db380-9c2a-4d31-92bf-2b2c91dab1ab)
 ![1000485551](https://github.com/user-attachments/assets/183adcbd-8696-446e-b6cd-7ae95fa59db1)
 ![1000485549](https://github.com/user-attachments/assets/13db350b-7f09-4d11-b197-9d6320fd065f)
